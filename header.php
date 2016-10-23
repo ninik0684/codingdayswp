@@ -24,4 +24,11 @@
 <body>
 	<header class="header">
 		<!-- Vous pouvez mettre ici toutes les infos que vous voulez retrouver dans le header de toutes vos pages  -->
+		<img src="http://YUNNicolas.students.coding-days.com/wp-content/uploads/2016/10/Image_VIB_1.png" alt="description de l'image" id="mon_image" class="image"> </img>
+		<ul>
+			<li class="class1"> test 1 </li>
+			<li class="class1"> test2 </li>
+			<li class="class1"> test 3 </li>
+		</ul>
+
 	</header>

@@ -1,1 +1,83 @@
 /* Silence is golden */
+.image
+{
+width:100px;
+height:100px;
+}
+
+body
+{
+  margin:0;
+}
+header
+{
+  position:fixed;
+  top: 0;
+  background-color: red;
+  text-align: center;
+  width: 100%;
+  font-family: 'Roboto';
+}
+
+footer
+{
+  background-color: orange;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+.centrer
+{
+  text-align: center;
+}
+.article
+{
+  display:inline-block;
+  text-align: center;
+  margin: 10px 20px;
+}
+.class1
+{
+  display:inline-block;
+  margin: 10px 20px;
+}
+
+.class2
+{
+  margin-top:140px ;
+}
+
+.class2 > article h1
+{
+  margin:0;
+}
+
+.section1_couleur
+{
+  background-color: green;
+}
+.section2_couleur
+{
+  background-color: yellow;
+}
+.section2_couleur > article
+{
+  width:33%;
+  margin:0;
+}
+.section3_couleur
+{
+  background-color: pink;
+}
+
+@media screen and (max-width: 775px) {
+  .section2_couleur > article {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 229px){
+    header li {
+      width: 100%;
+    }
